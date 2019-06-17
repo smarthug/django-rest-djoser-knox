@@ -1,3 +1,5 @@
+Django>=2.2.2
+djangorestframework>=3.9.4
 djoser>=1.7.0
 django-rest-knox>=4.0.1
 django-cors-headers>=3.0.2
