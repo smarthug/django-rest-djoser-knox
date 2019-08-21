@@ -55,6 +55,10 @@ DJOSER = {
     'TOKEN_MODEL': 'knox.models.AuthToken'
 }
 
+REST_KNOX = {
+    'USER_SERIALIZER': 'knox_util.serializers.UserSerializer',
+}
+
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware', # new
     'django.middleware.security.SecurityMiddleware',
